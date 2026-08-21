@@ -25,7 +25,7 @@ def pipeline():
 
 @app.route("/about")
 def about():
-    return layout("About", '''<main class="page"><span class="badge">PROJECT</span><h1>Why this demo exists</h1><p>This project is intentionally small so the CI/CD concepts are visible instead of hidden behind a large application.</p><div class="grid"><div class="card"><h3>Application</h3><p class="muted">Python + Flask provides the web layer and health endpoint.</p></div><div class="card"><h3>Automation</h3><p class="muted">Jenkins coordinates repeatable build and test stages.</p></div><div class="card"><h3>Infrastructure</h3><p class="muted">Docker provides a consistent runtime environment.</p></div></div><h2>Example architecture</h2><div class="code">Developer → GitHub → Jenkins → Test → Docker Build → Deployment</div></main>''')
+    return layout("About", '''<main class="page"><span class="badge">OOOOTY</span><h1>Why this demo exists</h1><p>This project is intentionally small so the CI/CD concepts are visible instead of hidden behind a large application.</p><div class="grid"><div class="card"><h3>Application</h3><p class="muted">Python + Flask provides the web layer and health endpoint.</p></div><div class="card"><h3>Automation</h3><p class="muted">Jenkins coordinates repeatable build and test stages.</p></div><div class="card"><h3>Infrastructure</h3><p class="muted">Docker provides a consistent runtime environment.</p></div></div><h2>Example architecture</h2><div class="code">Developer → GitHub → Jenkins → Test → Docker Build → Deployment</div></main>''')
 
 
 @app.route("/health")
